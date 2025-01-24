@@ -1,5 +1,3 @@
-This repository is a work in progress.
-
 ## Description
 
 The goal of this tool is to help Spark users find common errors in their batch jobs by analyzing their event logs.
