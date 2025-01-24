@@ -16,7 +16,7 @@ Currently the following checks are supported:
 1. Does not currently support analyzing jobs that failed.
 2. Only intended for large batch jobs, not for streaming.
 3. Does not analyze in real time.
-4. Still in development.
+4. Very slow on large logs.
 
 ### Alternatives
 
