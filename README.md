@@ -4,12 +4,12 @@ The goal of this tool is to help Spark users find common errors in their batch j
 
 ### Supported checks
 
-Currently the following checks are supported:
+Currently, the following checks are supported:
 
 1. Multiple actions performed on a dataframe without caching.
 2. The same action performed on a dataframe without caching.
-3. Task durations within a single stage are to skewed.
-4. Spills occured during stage execution.
+3. Task durations within a single stage are too skewed.
+4. Spills occurred during stage execution.
 
 ### Limitations
 
