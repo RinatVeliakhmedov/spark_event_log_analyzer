@@ -30,3 +30,12 @@ Build and run using sbt. The first command line argument is the path to a Spark 
 
 See Spark [documentation page](https://spark.apache.org/docs/latest/monitoring.html#viewing-after-the-fact) for how to record and store event logs.
 See [Scala documentation](https://docs.scala-lang.org/getting-started/sbt-track/getting-started-with-scala-and-sbt-on-the-command-line.html#running-the-project) for how to run your project with sbt.
+
+## Example output
+
+```
+[Performance] Multiple actions without cache: SQL query with id 1 shares a sequence of operation with SQL query with id 0.
+  First shared Spark plan node: 'Range': Range (0, 5, step=1, splits=5).
+  Last shared Spark plan node: 'MapElements': MapElements org.spark_heuristics.analyzer.heuristics.MultipleActionsWithoutCacheTest$$Lambda$1481/0x000001de6cac3398@558575fe, obj#4: java.lang.Long.
+  Consider caching after the last shared node to improve performance.
+```
